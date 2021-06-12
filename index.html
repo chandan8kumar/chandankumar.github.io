@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Portfolio Chandan</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#home">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home section -->
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, My name is</div>
+                <div class="text-2">Chandan Kumar</div>
+                <div class="text-3">And I am a <span style="font:bold">Data Scientist</span></div>
+                <button class="hireme" onclick=hireMe()>Hire Me</button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="hope2.png">
+                </div>
+                <div class="column right">
+                    <div class="text">I am Chandan and I am <span>undergrad.</span></div>
+                    <div class="abt">
+                        I am a junior year undergraduate pursuing Computer Science Engineering from Jaypee University of
+                        Engineering and Technology, Guna. Right now I am working on gaining more knowledge in the field
+                        of Data Structures and Algorithms. I am also very drawn towards the field of Data Science and
+                        Machine Learning. I am looking for:<br>
+                        <ul>
+                            <li>Opportunities to apply my theoretical knowledge to real-world problems.</li>
+                            <li>Working in the area of machine learning and data science to learn and grow.</li>
+                            <li>Also gaining information about Computer-Vison, Deep-Learning, NLP and explore more.</li>
+                            <li>Gaining a different perspective on problem-solving techniques using algorithms.</li>
+                            <li>Working in teams and meeting new people.</li>
+                            <li>Exploring the tech world and get to learn something new every day.</li>
+                        </ul>
+                    </div>
+                    <a href="Chandan_Kumar_Resume.pdf" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project section -->
+    <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="music gen.jpg" alt="">
+                        <summary class="text"><a href="https://github.com/chandan8kumar/Music-Generator"
+                                target="_blank">Music Generation</a></summary>
+                        <details>
+                            <p>This is a deep learning project which works on the LSTM model and generates piano music.
+                                Later you can download the song also in .mid format. </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="tech sense.png" alt="">
+                        <summary class="text"><a href="https://github.com/chandan8kumar/TechSense_Webapp"
+                                target="_blank">Tech Sense</a></summary>
+                        <details>
+                            <p>Dark UI Web app containing technical blogs with recommendations of other tech articles.
+                                Using JS development and Web Scrapping with Google Login and API. Here I did the web
+                                scrapping and collected news articles from different sites and stored it into a JSON
+                                file. Prepared a python script to keep the JSON file up to date with the news articles.
+                                Built the news articles recommendation system using content-based filtering.</p>
+                        </details>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="artify.png" alt="">
+                        <summary class="text"><a href="https://github.com/chandan8kumar/Artify_webapp"
+                                target="_blank">Artify Webapp</a></summary>
+                        <details>
+                            <p>A drawing web app, Artify, intends to be a simple version of paint aka MS Paint Clone,
+                                with responsive web design and decent image creation and editing capabilities. It is our
+                                very own raster graphics editor, cross-platform unlike MS Paint(MS Paint restrict the
+                                user to Windows Computers only). This project was completed with related software
+                                engineering documents.</p>
+                        </details>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="Automated_Image_Caption_Generator.jpeg" alt="">
+                        <summary class="text"><a
+                                href="https://github.com/chandan8kumar/Automated-Image-Caption-Generator"
+                                target="_blank">Automated Image Caption Generator</a></summary>
+                        <details>
+                            <p>It's a Deep Learning project of Computer Vision to automatically generate caption for
+                                image fed to the program. We created a CNN-LSTM model for training and a GUI program for
+                                aesthetics of project. </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="mnist.png" alt="">
+                        <summary class="text"><a href="https://github.com/chandan8kumar/MNIST-Digit-Recogniser"
+                                target="_blank">Handwritten Digit Recognizer</a></summary>
+                        <details>
+                            <p>A Machine Learning project using the mnist dataset of handwritten digits. SGD classifier
+                                was used to predict if the given number is correctly predicted as in the target.
+                                Accuracy of correct prediction of handwritten digits from 0 to 9 was calculated. </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="phonebook.png" alt="">
+                        <summary class="text"><a href="https://github.com/chandan8kumar/PhoneBook" target="_blank">Phone
+                                Book</a></summary>
+                        <details>
+                            <p>A Phone book where user can save the contact details, delete and edit them as well. A
+                                search box is also provided which shows the saved contacts and user can search contact
+                                by name. Database was used to save the data and sqlite was connected with python and
+                                tkinter.</p>
+                        </details>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="Tic Tac Toe.png" alt="">
+                        <summary class="text"><a href="https://github.com/chandan8kumar/Tic-Tac-Toe" target="_blank">Tic
+                                Tac Toe</a></summary>
+                        <details>
+                            <p>Tic-tac-toe (American English), noughts and crosses (British English) or Xs and Os, is a
+                                paper-and-pencil game for two players, X and O, who take turns marking the spaces in a
+                                3×3 grid. The player who succeeds in placing three of their marks in a horizontal,
+                                vertical, or diagonal row wins the game. </p>
+                        </details>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="calendar.png" alt="">
+                        <summary class="text"><a href="https://github.com/chandan8kumar/TechSense_Webapp"
+                                target="_blank">Hundred Year Calendar</a></summary>
+                        <details>
+                            <p>It's a C++ project of 100 Year Calender (2001-2100). Here you just need to enter the
+                                Year, Month(in number), and the Date. The code will output the Day on that date.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top:80px; margin-bottom: -80px;">for more check <a
+                href="https://github.com/chandan8kumar" target="_blank">@chandan8kumar</a></div>
+
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My skills and Experience</div>
+                    <p>I am interested in coding. Having a fair hold on C language, I know basic Java. I also have a
+                        good command of Object Oriented Programming concepts in C++. I have a good hold on Data
+                        Structures and Algorithms. Mathematics and related topics interest me a lot. Getting insights
+                        out of data is something that I really like. Data visualization and machine learning are some
+                        techniques that I am using to achieve this. Already having fair knowledge in NoSQL, I am looking
+                        forward to learning that too. I am exploring and learning new technologies and skills. I am a
+                        big open source believer since I think by sharing solutions we can achieve a lot more as a
+                        community.</p>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>C/C++</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line cpp"></div>
+                    </div>
+
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Python</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line pyt"></div>
+                    </div>
+
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Java</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>Machine Learning/Deep Learning (Computer Vison, NLP)</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line dj"></div>
+                    </div>
+
+                    <div class="bars">
+                        <div class="info">
+                            <span>SQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line db"></div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education section-->
+    <section class="edu" id="edu">
+        <div class="max-width">
+            <h2 class="title">Education</h2>
+            <div class="edu-content">
+                <div class="card">
+                    <div class="box">
+                        <div class="text">B.Tech</div>
+                        <div class="gpa">CGPA: 9.2</div>
+                        <p>CSE Jaypee University of Engineering and Technology, Guna</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="text">XII</div>
+                        <div class="gpa">81.6%</div>
+                        <p>Central Board of Secondary Education</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="text">X</div>
+                        <div class="gpa">9 CGPA</div>
+                        <p>Central Board of Secondary Education</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact</h2>
+            <div class="contact-content">
+                <img src="my picture.jpg" alt="">
+                <div class="name">Chandan Kumar</div>
+
+
+                <a href="https://www.linkedin.com/in/chandan-kumar-11a199175/" target="_blank"><img src="linked.png"
+                        alt="linkedin" style="width:38px;height:38px;"></a>
+                <a href="https://github.com/chandan8kumar" target="_blank"><img src="github.png" alt="github"
+                        style="width:45px;height:45px;"></a>
+                <a href="mailto:kumarchandankumar31345@gmail.com" target="_blank"><img src="gmail.png" alt="gmail"
+                        style="width:40px;height:40px;"></a>
+                <a href="https://www.codechef.com/users/sandalwood75" target="_blank"><img src="codechef.png"
+                        alt="hackerrank" style="width:46px;height:46px;"></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Created By <span style="color: rgb(255, 255, 255)">Chandan Kumar | </span><span class="far fa-copyright">
+            </span> 2021</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
