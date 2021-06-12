@@ -374,7 +374,7 @@ footer {
   background: white;
 }
 .project .title::after {
-  content: "what I made and contributed";
+  content: "what I contributed";
   background: rgb(255, 255, 255);
 }
 .project .carousel .card {
